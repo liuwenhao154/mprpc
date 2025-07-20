@@ -17,3 +17,35 @@ A high-performance RPC framework implemented in modern C++11, based on the Muduo
 
 ## 📁 Project Structure
 
+mprpc/
+├── bin/ # Compiled binaries and logs
+├── build/ # CMake build directory
+├── example/ # Sample services and clients (caller/callee)
+├── lib/ # Static library output and headers
+├── src/ # Core framework source code
+│ ├── mprpcapplication.cc / .h
+│ ├── mprpcchannel.cc / .h
+│ ├── mprpccontroller.cc / .h
+│ ├── rpcprovider.cc / .h
+│ ├── zookeeperutil.cc / .h
+│ └── logger.cc / .h, lockqueue.h
+├── test/ # Protobuf test case
+├── CMakeLists.txt # Project entry
+└── README.md
+
+## 🚀 Quick Start
+
+### 🔧 1. Dependencies
+
+- C++11
+- [Muduo]
+- [Protobuf]
+- [Zookeeper C Client]
+
+### 🧱 2. Build
+
+```bash
+# Inside project root
+mkdir build && cd build
+cmake ..
+make -j4
