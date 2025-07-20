@@ -1,0 +1,23 @@
+16:40:38 => [ERROR]Starting FriendService...
+16:40:38 => [ERROR]This is an error message for testing purposes.
+16:40:38 => [INFO]Registering service: FriendServiceRpc with 1 methods16:40:38 => [INFO]Registered method: GetFriendList for service: FriendServiceRpc16:44:13 => [ERROR]Starting FriendService...
+16:44:13 => [ERROR]This is an error message for testing purposes.
+16:44:13 => [INFO]Registering service: FriendServiceRpc with 1 methods16:44:13 => [INFO]Registered method: GetFriendList for service: FriendServiceRpc16:58:4 => [ERROR]Starting FriendService...
+16:58:4 => [INFO]This is an error message for testing purposes.
+16:58:4 => [INFO]Registering service: FriendServiceRpc with 1 methods16:58:4 => [INFO]Registered method: GetFriendList for service: FriendServiceRpc16:58:4 => [INFO]RpcProvider is starting at 127.0.0.1:800017:25:24 => [ERROR]Starting FriendService...
+17:25:24 => [INFO]This is an error message for testing purposes.
+17:25:24 => [INFO]Registering service: FriendServiceRpc with 1 methods17:25:24 => [INFO]Registered method: GetFriendList for service: FriendServiceRpc17:25:24 => [INFO]RpcProvider is starting at 127.0.0.1:800017:25:38 => [INFO]header_size :3517:25:38 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList17:25:38 => [INFO]args_str: ¹`17:25:38 => [INFO]RPC request sent successfully.17:25:38 => [INFO]Received response from server.17:25:38 => [INFO]Response parsed successfully.17:25:24 => [INFO]header_size: 3517:25:38 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList17:25:38 => [INFO]service_name: FriendServiceRpc17:25:38 => [INFO]method_name: GetFriendList17:25:38 => [INFO]args_str: ¹`17:25:38 => [INFO]Response sent successfully.18:2:31 => [INFO]header_size :3518:2:31 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList18:2:31 => [INFO]args_str: ¹`18:2:31 => [INFO]RPC request sent successfully.17:25:38 => [INFO]header_size: 3518:2:31 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList18:2:31 => [INFO]service_name: FriendServiceRpc18:2:31 => [INFO]method_name: GetFriendList18:2:31 => [INFO]args_str: ¹`18:2:31 => [INFO]Response sent successfully.18:2:31 => [INFO]Received response from server.18:2:31 => [INFO]Response parsed successfully.18:2:42 => [INFO]header_size :3518:2:42 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList18:2:42 => [INFO]args_str: ¹`18:2:42 => [INFO]RPC request sent successfully.18:2:31 => [INFO]header_size: 3518:2:42 => [INFO]Received response from server.18:2:42 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList18:2:42 => [INFO]Response parsed successfully.18:2:42 => [INFO]service_name: FriendServiceRpc18:2:42 => [INFO]method_name: GetFriendList18:2:42 => [INFO]args_str: ¹`18:2:42 => [INFO]Response sent successfully.18:33:34 => [ERROR]Starting FriendService...
+18:33:34 => [ERROR]This is an error message for testing purposes.
+18:33:34 => [INFO]Registering service: FriendServiceRpc with 1 methods18:33:34 => [INFO]Registered method: GetFriendList for service: FriendServiceRpc18:33:34 => [INFO]RpcProvider is starting at 127.0.0.1:800018:33:39 => [INFO]header_size :3518:33:39 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList18:33:39 => [INFO]args_str: ¹`18:33:39 => [INFO]RPC request sent successfully.18:33:34 => [INFO]header_size: 3518:33:39 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList18:33:39 => [INFO]service_name: FriendServiceRpc18:33:39 => [INFO]method_name: GetFriendList18:33:39 => [INFO]args_str: ¹`18:33:39 => [INFO]Response sent successfully.18:33:39 => [INFO]Received response from server.18:33:39 => [INFO]Response parsed successfully.18:33:42 => [INFO]header_size :3518:33:42 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList18:33:42 => [INFO]args_str: ¹`18:33:42 => [INFO]RPC request sent successfully.18:33:39 => [INFO]header_size: 3518:33:42 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList18:33:42 => [INFO]service_name: FriendServiceRpc18:33:42 => [INFO]method_name: GetFriendList18:33:42 => [INFO]args_str: ¹`18:33:42 => [INFO]Response sent successfully.18:33:42 => [INFO]Received response from server.18:33:42 => [INFO]Response parsed successfully.18:33:43 => [INFO]header_size :3518:33:43 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList18:33:43 => [INFO]args_str: ¹`18:33:43 => [INFO]RPC request sent successfully.18:33:42 => [INFO]header_size: 3518:33:43 => [INFO]rpc_header_str: 
+FriendServiceRpcGetFriendList18:33:43 => [INFO]service_name: FriendServiceRpc18:33:43 => [INFO]method_name: GetFriendList18:33:43 => [INFO]args_str: ¹`18:33:43 => [INFO]Response sent successfully.18:33:43 => [INFO]Received response from server.18:33:43 => [INFO]Response parsed successfully.
