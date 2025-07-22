@@ -8,7 +8,7 @@ Logger& Logger::GetInstance()
     return instance;
 }
 
-Logger::Logger() : m_exit(false){
+Logger::Logger(){
     m_thread = std::thread([this]() {
         while (true) {
             time_t now = time(nullptr);
@@ -23,9 +23,9 @@ Logger::Logger() : m_exit(false){
                 continue;
             }
 
-            std::string message = m_logQueue.Pop();
-            if (m_exit && message.empty()) break; // 退出条件
-            if (message.empty()) continue; // 忽略空消息
+            auto message_opt = m_logQueue.Pop();
+            if (!message_opt.has_value()) break; // received exit signal, safely exit thread
+            std::string& message = message_opt.value();
 
             char time_buffer[64];
             sprintf(time_buffer, "%d:%d:%d => [%s]", 
@@ -44,8 +44,7 @@ Logger::Logger() : m_exit(false){
 
 Logger::~Logger(){
     // Wait for the logging thread to finish
-    m_logQueue.Exit(); // 唤醒所有等待线程并设置退出标志
-    m_exit = true;
+    m_logQueue.Exit(); // Signal the logging thread to exit
     if (m_thread.joinable()) m_thread.join();
 }
 

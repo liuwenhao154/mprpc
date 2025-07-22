@@ -3,6 +3,7 @@
 #include <condition_variable>
 #include <queue>
 #include <thread>
+#include <optional>
 
 // async lock queue header file
 template<typename T>
@@ -14,13 +15,13 @@ public:
         m_queue.push(item);
         m_cond.notify_one(); // Notify one waiting thread
     }
-    T Pop()
+    std::optional<T> Pop()
     {
         std::unique_lock<std::mutex> lock(m_mutex);
         while (m_queue.empty() && !m_exit) {
             m_cond.wait(lock, [this] { return !m_queue.empty() || m_exit; });
         }
-        if(m_exit) return T(); // Return default value if exit is requested
+        if(m_exit) return std::nullopt; // Return default value if exit is requested
         T item = m_queue.front();
         m_queue.pop();
         return item;

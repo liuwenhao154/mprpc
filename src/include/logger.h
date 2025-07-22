@@ -18,7 +18,6 @@ public:
 private:
     int m_logLevel;
     LockQueue<std::string> m_logQueue;
-    bool m_exit; // Flag to indicate exit condition
     std::thread m_thread;
 
     Logger();
